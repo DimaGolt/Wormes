@@ -122,9 +122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 466296055}
   - component: {fileID: 466296054}
-  - component: {fileID: 466296053}
   - component: {fileID: 466296052}
   - component: {fileID: 466296056}
+  - component: {fileID: 466296053}
   m_Layer: 0
   m_Name: Worm
   m_TagString: Player
@@ -153,8 +153,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &466296053
-CircleCollider2D:
+--- !u!61 &466296053
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167,8 +167,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.13, y: 0.14}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Size: {x: 0.13, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!212 &466296054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -206,7 +216,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: ca74afe83196578429b3cef2a0553690, type: 3}
   m_Color: {r: 0.272748, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -243,6 +253,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9257182af41497241abfc563a8d0605b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 5
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +409,7 @@ GameObject:
   - component: {fileID: 724461133}
   - component: {fileID: 724461132}
   - component: {fileID: 724461131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Floor
   m_Icon: {fileID: 0}
