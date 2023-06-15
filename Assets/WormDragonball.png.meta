@@ -107,10 +107,10 @@ TextureImporter:
       name: WormDragonball_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 38
+        y: 287
+        width: 55
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a50cf5c17a3a04ca6d05add2e30116
+      spriteID: 845b503ea3b2d7143bacd98eacb95dea
       vertices: []
       indices: 
       edges: []
@@ -127,10 +127,10 @@ TextureImporter:
       name: WormDragonball_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 163
+        y: 287
+        width: 77
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,7 +138,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 831b769b39fe02c4e89390876cb794e7
+      spriteID: 594d50ef2dadd5148928c77b7df2fb90
       vertices: []
       indices: 
       edges: []
@@ -147,10 +147,10 @@ TextureImporter:
       name: WormDragonball_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 279
+        y: 287
+        width: 93
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c2e4d3d76c4e344aefb3b289330c8e
+      spriteID: 064de3a249d17c64ea304fa87b9c3ff7
       vertices: []
       indices: 
       edges: []
@@ -167,10 +167,10 @@ TextureImporter:
       name: WormDragonball_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 38
+        y: 155
+        width: 55
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4eb3c97c403314281733fe5132e59a
+      spriteID: c48d8626561e860418820919e6a30a7d
       vertices: []
       indices: 
       edges: []
@@ -187,10 +187,10 @@ TextureImporter:
       name: WormDragonball_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 163
+        y: 147
+        width: 77
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07db0a786c72c434fa89027b8ca3366f
+      spriteID: fee78dfc7d5585c4eba5c0e1b4c2382f
       vertices: []
       indices: 
       edges: []
@@ -207,10 +207,10 @@ TextureImporter:
       name: WormDragonball_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 279
+        y: 147
+        width: 93
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab7d1e5e0729c3a41923fb293f52d5ac
+      spriteID: 55028d1585fa3504badfb37f40f53a75
       vertices: []
       indices: 
       edges: []
@@ -227,10 +227,10 @@ TextureImporter:
       name: WormDragonball_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 38
+        y: 38
+        width: 55
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fbcd6db3f282bc499f0623a995124a6
+      spriteID: 22cacc24461d56e4697687bc670683e4
       vertices: []
       indices: 
       edges: []
@@ -247,10 +247,10 @@ TextureImporter:
       name: WormDragonball_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 163
+        y: 38
+        width: 77
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,7 +258,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f87c33050580fc4bb4c97321969cf3f
+      spriteID: 4a7ed135380be5242b18d12a2b0a56fc
       vertices: []
       indices: 
       edges: []
@@ -267,10 +267,10 @@ TextureImporter:
       name: WormDragonball_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
+        x: 279
+        y: 38
+        width: 93
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +278,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28ca97bcc33f968499095f532fc75aa5
+      spriteID: d183f5a64eb7a3f4cb4f45651d5c6b33
       vertices: []
       indices: 
       edges: []

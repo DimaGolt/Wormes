@@ -109,18 +109,18 @@ TextureImporter:
       name: WormBazooka_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 424
+        width: 72
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f49b7413b5d61d4dacc569c766a90d9
+      spriteID: c640d83ca00936d43b593c715ff4d47a
       vertices: []
       indices: 
       edges: []
@@ -129,18 +129,18 @@ TextureImporter:
       name: WormBazooka_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 152
+        y: 424
+        width: 96
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23255eaaaa48f3a4981981043fc1bd1c
+      spriteID: f82c819b9588fa44a9c11de85bdb2032
       vertices: []
       indices: 
       edges: []
@@ -149,18 +149,18 @@ TextureImporter:
       name: WormBazooka_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 280
+        y: 424
+        width: 104
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdde816f058f0dd4784000015eabd5f2
+      spriteID: 3bf6d8dab64c08d4ca826868dee97675
       vertices: []
       indices: 
       edges: []
@@ -169,18 +169,18 @@ TextureImporter:
       name: WormBazooka_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
+        x: 24
+        y: 288
+        width: 72
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 578982a078d82394e9d7df1928e4bea4
+      spriteID: cd67cb50ce1585748b34aa5244fcb6c7
       vertices: []
       indices: 
       edges: []
@@ -189,18 +189,18 @@ TextureImporter:
       name: WormBazooka_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
+        x: 152
+        y: 280
+        width: 96
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43969bb5179f7345a197397fc01f5a1
+      spriteID: bace2fc057c8ee24a87c28ee29fd3e27
       vertices: []
       indices: 
       edges: []
@@ -209,18 +209,18 @@ TextureImporter:
       name: WormBazooka_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
+        x: 272
+        y: 280
+        width: 112
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a4ca0ffbf7e7e84aa09c08a5dcb7448
+      spriteID: 7e2f152ecc7fd504c9c2d263ec17b38e
       vertices: []
       indices: 
       edges: []
@@ -229,18 +229,18 @@ TextureImporter:
       name: WormBazooka_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 128
-        height: 128
+        x: 24
+        y: 168
+        width: 72
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39dab28a0ee06e44d97bd9c6d5fff8f6
+      spriteID: 794c28bd75b68b24d807843bee867fca
       vertices: []
       indices: 
       edges: []
@@ -249,18 +249,18 @@ TextureImporter:
       name: WormBazooka_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
+        x: 152
+        y: 168
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58d8c9756792d7a4ba4c82dfa3d7531a
+      spriteID: 13e1cb9778ebee34dbb27c5fd3245a82
       vertices: []
       indices: 
       edges: []
@@ -269,18 +269,18 @@ TextureImporter:
       name: WormBazooka_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
+        x: 272
+        y: 168
+        width: 112
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b346ffe78c76d429c9d2a724b3a56d
+      spriteID: 582d5bbd75b62504ea97a6afe3f4dc75
       vertices: []
       indices: 
       edges: []
@@ -289,18 +289,18 @@ TextureImporter:
       name: WormBazooka_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 32
+        y: 40
+        width: 64
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8fe0be9763dd14ebcbb894999f5668
+      spriteID: 17a8d9990e442bd43b3232e1b9c04b66
       vertices: []
       indices: 
       edges: []
@@ -309,18 +309,18 @@ TextureImporter:
       name: WormBazooka_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
+        x: 168
+        y: 40
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a768a141798345a4aac15794a640c5c0
+      spriteID: ca71bb35935afd74ca03376dbd1d0e2f
       vertices: []
       indices: 
       edges: []
