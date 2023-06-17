@@ -12,19 +12,29 @@ public class WormsMovement : MonoBehaviour
     public LayerMask groundLayer;  // Layer(s) considered as ground
 
     private Rigidbody2D _rb;  // Reference to the character's Rigidbody2D component
+    private Animator _animator;
     private bool _isGrounded;  // Flag to check if the character is grounded
     private float _jumpDirection = 1f;  
-    private bool _isJumping = false;  // Flag to check if the character is currently jumping
+    private bool _isJumping = false; // Flag to check if the character is currently jumping
+    
+    
+    
+    private static readonly int StartJumping = Animator.StringToHash("StartingJump");
+    private static readonly int Walking = Animator.StringToHash("Walking");
+    private static readonly int Flying = Animator.StringToHash("Flying");
 
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         // Check if the character is on the ground
         _isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayer);
+        
+        
 
         if (_isGrounded && !_isJumping)
         {
@@ -40,7 +50,12 @@ public class WormsMovement : MonoBehaviour
 
             // Flip the character sprite based on movement direction
             Vector3 previousScale = transform.localScale;
-            
+
+            if (moveInput == 0)
+                _animator.SetBool(Walking, false);
+            else
+                _animator.SetBool(Walking, true);
+
             if (moveInput > 0 && Mathf.Sign(previousScale.x) != 1)
                 transform.localScale = new Vector3(-previousScale.x, previousScale.y, previousScale.z);
             else if (moveInput < 0 && Mathf.Sign(previousScale.x) != -1)
@@ -51,6 +66,7 @@ public class WormsMovement : MonoBehaviour
             {
                 // Set jumping flag to true and apply the jump force
                 _isJumping = true;
+                _animator.SetBool(StartJumping, true);
                 _rb.velocity = new Vector2(0f, 0f);
                 StartCoroutine(Jump());
             }
@@ -69,12 +85,15 @@ public class WormsMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Floor"))
         {
             _isJumping = false;
+            _animator.SetBool(Flying, false);
         }
     }
 
     private IEnumerator Jump()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.6f);
+        _animator.SetBool(StartJumping, false);
+        _animator.SetBool(Flying, true);
         _rb.AddForce( new Vector2(_jumpDirection * 200f, 200f));
     }
 }
