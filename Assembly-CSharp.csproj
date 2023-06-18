@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\WormsMovement.cs" />
+    <Compile Include="Assets\Scripts\WormWeapon.cs" />
     <Reference Include="Cinemachine">
       <HintPath>E:/Unity/Projects/Wormes/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
