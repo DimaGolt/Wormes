@@ -7,5 +7,13 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Worm_Shotgun
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 2790e04c37717654a9212f9a72dd44df, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 01f574a50723cf142be9a6d6b7013be8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8a20f0142736b4c448697c5f41f2e9b5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 13dc21ad56762cd46904b3c2501cfc7c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 13dc21ad56762cd46904b3c2501cfc7c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 24baf52e5e6860c43be83402fedc12d8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 24baf52e5e6860c43be83402fedc12d8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2f29f4aa3f9c33840992de62d4617685, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f58dc797859e104fbbcca0536c0d91a, type: 2}
