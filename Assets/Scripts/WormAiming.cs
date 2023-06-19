@@ -22,6 +22,8 @@ public class WormAiming : MonoBehaviour
     [SerializeField]
     public Transform crosshairTransform;
 
+    public WormShooting shootScript;
+
     private Transform _wormTransform;
 
     private void Start()
@@ -31,14 +33,14 @@ public class WormAiming : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKey(KeyCode.Return))
         {
             CalculatePower();
         }
         else if(Input.GetKeyUp(KeyCode.Return))
         {
-            //fire
-            CurrentPower = 0;
+            shootScript.FireProjectile(CurrentPower);
+            CurrentPower = MinPower;
         }
         
         if (Input.GetKey(KeyCode.UpArrow))
@@ -76,6 +78,11 @@ public class WormAiming : MonoBehaviour
         var newY = position.y + delY;
         
         crosshairTransform.position = new Vector3(newX , newY);
+    }
+
+    public Vector3 getShootingVector()
+    {
+        return crosshairTransform.position - muzzleTransform.transform.position;
     }
 
     void CalculatePower()

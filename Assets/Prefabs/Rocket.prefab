@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2787955701297296154}
   - component: {fileID: 2787955701297296155}
   - component: {fileID: 2787955701297296148}
+  - component: {fileID: 3006165573011544814}
   - component: {fileID: 2787955701297296153}
   m_Layer: 0
   m_Name: Rocket
@@ -102,6 +103,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3006165573011544814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2787955701297296149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c78b360a6e356a44930add4037bdfd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Radius: 2
+  ExplosionPrefab: {fileID: 0}
 --- !u!70 &2787955701297296153
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

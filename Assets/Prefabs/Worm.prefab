@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 8466399132602417647}
   - component: {fileID: 8466399132602417645}
   - component: {fileID: 7060551288660431270}
+  - component: {fileID: 7343356476571328997}
   - component: {fileID: 8466399132602417634}
   - component: {fileID: 8466399132602417646}
   m_Layer: 0
@@ -238,6 +239,23 @@ MonoBehaviour:
   CurrentAngle: 0
   muzzleTransform: {fileID: 5452370735740804844}
   crosshairTransform: {fileID: 7952280145130290658}
+  shootScript: {fileID: 7343356476571328997}
+--- !u!114 &7343356476571328997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466399132602417636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5378c9b1b3850bb42adf85d05366394d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 2787955701297296149, guid: 166c37223103f0041a567cd50ece29eb,
+    type: 3}
+  muzzle: {fileID: 5452370735740804844}
+  aimingScript: {fileID: 7060551288660431270}
 --- !u!61 &8466399132602417634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -307,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8539658810350346794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.429, y: 0.381, z: -0.013957936}
+  m_LocalPosition: {x: 0.699, y: 0.381, z: -0.013957936}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 8466399132602417632}
