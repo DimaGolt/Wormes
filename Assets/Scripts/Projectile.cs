@@ -36,6 +36,7 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        // GameObject explosion = Instantiate(explosionPrefab);
         Explode();
     }
 }

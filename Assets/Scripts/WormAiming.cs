@@ -31,29 +31,33 @@ public class WormAiming : MonoBehaviour
         _wormTransform = GetComponent<Transform>();
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKey(KeyCode.Return))
-        {
-            CalculatePower();
-        }
-        else if(Input.GetKeyUp(KeyCode.Return))
+        if(Input.GetButtonUp("Fire1"))
         {
             shootScript.FireProjectile(CurrentPower);
             CurrentPower = MinPower;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            CalculatePower();
         }
         
         if (Input.GetKey(KeyCode.UpArrow))
         {
             if (CurrentAngle < MaxAngle)
-                CurrentAngle += 1;
+                CurrentAngle += Mathf.CeilToInt(Time.deltaTime * 0.01f);
             else
                 CurrentAngle = MaxAngle;
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
             if (CurrentAngle > MinAngle)
-                CurrentAngle -= 1;
+                CurrentAngle -= Mathf.CeilToInt(Time.deltaTime * 0.01f);
             else
                 CurrentAngle = MinAngle;
             
@@ -93,6 +97,6 @@ public class WormAiming : MonoBehaviour
             return;
         }
 
-        CurrentPower += Mathf.CeilToInt(Time.deltaTime * 0.4f);
+        CurrentPower += Mathf.CeilToInt(Time.smoothDeltaTime * 0.04f);
     }
 }
