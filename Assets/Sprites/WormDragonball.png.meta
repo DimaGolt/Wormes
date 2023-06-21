@@ -1,18 +1,36 @@
 fileFormatVersion: 2
 guid: e1d17dead38bb1f48b9c2cf4aa178ef3
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: WormDragonball_0
-    21300002: WormDragonball_1
-    21300004: WormDragonball_2
-    21300006: WormDragonball_3
-    21300008: WormDragonball_4
-    21300010: WormDragonball_5
-    21300012: WormDragonball_6
-    21300014: WormDragonball_7
-    21300016: WormDragonball_8
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: WormDragonball_0
+  - first:
+      213: 21300002
+    second: WormDragonball_1
+  - first:
+      213: 21300004
+    second: WormDragonball_2
+  - first:
+      213: 21300006
+    second: WormDragonball_3
+  - first:
+      213: 21300008
+    second: WormDragonball_4
+  - first:
+      213: 21300010
+    second: WormDragonball_5
+  - first:
+      213: 21300012
+    second: WormDragonball_6
+  - first:
+      213: 21300014
+    second: WormDragonball_7
+  - first:
+      213: 21300016
+    second: WormDragonball_8
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,9 +47,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,9 +61,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -63,11 +84,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,8 +104,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,8 +117,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -99,7 +130,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,6 +178,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9e77166213fb8384daa4d150c6a7c255
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -139,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b5047efa0a2acee4ba1ef5e923fef883
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -159,6 +220,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: de2ba23e702691f4a810261e4ccc1992
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -179,6 +241,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 606f83916ab5c0f4a922a218d9dfa47d
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -199,6 +262,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8c65a33aa62a635409a2fa26e9414c09
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -219,6 +283,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 70977d6217c50344aa2952677d2aa5f9
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -239,6 +304,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 532e9c1954b98614289261635818d354
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -259,6 +325,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c0e0312f243e6cf459036e1961c9dcb9
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -279,6 +346,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 41338cd058c3e7e4d8e454e327e52698
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -287,13 +355,24 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: bf5a1d03965b8754696304cc7b69ad4f
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      WormDragonball_0: 21300000
+      WormDragonball_1: 21300002
+      WormDragonball_2: 21300004
+      WormDragonball_3: 21300006
+      WormDragonball_4: 21300008
+      WormDragonball_5: 21300010
+      WormDragonball_6: 21300012
+      WormDragonball_7: 21300014
+      WormDragonball_8: 21300016
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
