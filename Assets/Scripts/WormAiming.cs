@@ -25,6 +25,12 @@ public class WormAiming : MonoBehaviour
     public WormShooting shootScript;
 
     private Transform _wormTransform;
+    private Animator _animator;
+
+    void Awake()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Start()
     {
@@ -38,6 +44,7 @@ public class WormAiming : MonoBehaviour
             shootScript.FireProjectile(CurrentPower);
             CurrentPower = MinPower;
         }
+        UpdateAmimir();
     }
 
     void FixedUpdate()
@@ -98,5 +105,18 @@ public class WormAiming : MonoBehaviour
         }
 
         CurrentPower += Mathf.CeilToInt(Time.smoothDeltaTime * 0.04f);
+    }
+
+    void UpdateAmimir(){
+        if(CurrentAngle > 35){
+            _animator.SetBool("IsLookingUp", true);
+        } 
+        else if(CurrentAngle < -35){
+            _animator.SetBool("IsLookingdown", true);
+        }
+        else{
+            _animator.SetBool("IsLookingUp", false);
+            _animator.SetBool("IsLookingdown", false);
+        }
     }
 }
