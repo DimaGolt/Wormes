@@ -51,4 +51,9 @@ public class WormWeapon : MonoBehaviour
     {
         _selectedWeapon = weapon;
     }
+
+    public int GetWeapon()
+    {
+        return _selectedWeapon;
+    }
 }
